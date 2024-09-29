@@ -1,0 +1,19 @@
+.utility {
+  right: 30px;
+  top: 20px;
+}
+
+.utility>li {
+  padding: 0 10px;
+}
+
+.navigation {
+  right: 0px;
+  bottom: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.navigation>li {
+  padding: 0 30px;
+}

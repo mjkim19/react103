@@ -1,0 +1,11 @@
+header>.inner-box {
+  width: 1180px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+header>.inner-box>h1 {
+  left: 10px;
+  bottom: 15px;
+  color: rgb(36, 38, 40)
+}

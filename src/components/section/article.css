@@ -1,0 +1,10 @@
+article {
+  width: 230px;
+  padding: 0 32.5px;
+  float: left;
+}
+
+article > .title_ {
+  font-weight: bold;
+  margin: 5px 0;
+}
