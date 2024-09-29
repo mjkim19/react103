@@ -1,0 +1,39 @@
+.gallery {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+}
+
+.gallery a {
+  text-decoration: none;
+}
+
+.gallery img {
+  display: block;
+}
+
+.gallery ul {
+  position: absolute;
+}
+
+.gallery li {
+  list-style: none;
+  float: left;
+}
+
+.gallery section {
+  width: 1000px;
+  margin: 130px auto 0;
+  overflow: hidden;
+}
+
+.gallery section>div {
+  float: left;
+  width: 490px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+

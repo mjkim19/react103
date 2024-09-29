@@ -1,0 +1,26 @@
+.article7 {
+  width: 1000px;
+  height: 361px;
+  background-image: url("./1000x361.png");
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.article7>.inner-box {
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  width: 450px;
+  height: 150px;
+  line-height: 50px;
+}
+
+.article7 .phrase {
+  font-size: 20px;
+  color: white;
+}
+
+.article7 .phrase>span {
+  font-size: 30px;
+  font-weight: bold;
+}

@@ -1,0 +1,125 @@
+article{
+  position: relative;
+  float: left;
+}
+
+.phrase {
+  position: absolute;
+}
+
+.article1 {
+  width: 700px;
+  height: 400px;
+  background-image: url("./700x400.png");
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.article1>.phrase {
+  right: 10px;
+  bottom: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.article2 {
+  width: 290px;
+  height: 190px;
+  background-image: url("./290x190.png");
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.article2>.phrase {
+  top: 50px;
+  left: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.article3-1 {
+  width: 290px;
+  height: 95px;
+  background-image: url("./290x95-1.png");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.article3-2 {
+  width: 290px;
+  height: 95px;
+  background-image: url("./290x95-2.png");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.article3-1>.phrase {
+  right: 10px;
+  bottom: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.article4-1 {
+  width: 490px;
+  height: 240px;
+  background-image: url("./490x240-1.png");
+  margin-bottom: 5px;
+}
+
+.article4-1>.phrase {
+  top: 160px;
+  left: 0;
+  right: 0;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.article4-2 {
+  width: 490px;
+  height: 240px;
+  background-image: url("Resource 1-03/Resource 1-03 (221224)/490x240-2.png");
+  margin-top: 5px;
+}
+
+.article4-2>.phrase {
+  right: 20px;
+  bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: gold;
+}
+
+.article5 {
+  width: 500px;
+  height: 490px;
+  background-image: url("./500x490.png");
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.article6 {
+  width: 1000px;
+  height: 371px;
+  background-image: url("./1000x371.png");
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.article6>.phrase {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  top: 160.5px;
+  left: 0;
+  right: 0;
+  width: max-content;
+  margin: 0 auto;
+  text-shadow: 2px 2px black;
+}

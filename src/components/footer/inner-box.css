@@ -1,0 +1,23 @@
+.inner-box {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.inner-box>h1 {
+  left: 10px;
+  bottom: 15px;
+}
+
+.inner-box>ul {
+  right: 20px;
+  bottom: 15px;
+}
+
+.inner-box>ul>li {
+  margin: 0 5px;
+}
+
+.inner-box>ul>li:nth-child(odd):hover {
+  color: blue;
+}
