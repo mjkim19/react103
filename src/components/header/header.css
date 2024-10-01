@@ -1,10 +1,16 @@
-header>.inner-box {
+.header {
+  width: 100%;
+}
+
+.header>.inner-box {
+  position: relative;
   width: 1180px;
   height: 120px;
   margin: 0 auto;
 }
 
-header>.inner-box>h1 {
+.header>.inner-box>h1 {
+  position: absolute;
   left: 10px;
   bottom: 15px;
   color: rgb(36, 38, 40)

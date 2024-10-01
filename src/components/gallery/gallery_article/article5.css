@@ -1,0 +1,13 @@
+.article5 {
+  position: relative;
+  float: left;
+  width: 500px;
+  height: 490px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.article5>.phrase {
+  position: absolute;
+}

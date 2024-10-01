@@ -1,0 +1,28 @@
+.footer-inner-box {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer-inner-box>h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+
+.footer-inner-box>ul {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+.footer-inner-box>ul>li {
+  list-style: none;
+  float: left;
+  margin: 0 5px;
+}
+
+.footer-inner-box>ul>li:nth-child(odd):hover {
+  color: blue;
+}

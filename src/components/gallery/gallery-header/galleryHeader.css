@@ -1,0 +1,46 @@
+.gallery-header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  top: 0px;
+  border-bottom: 2px solid gray;
+}
+
+.gallery-header>.inner-box {
+  position: relative;
+  width: 1180px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.gallery-header>.inner-box>.utility {
+  right: 30px;
+  top: 20px;
+}
+
+.gallery-header>.inner-box>.utility>li {
+  padding: 0 10px;
+}
+
+.gallery-header>.inner-box>h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  color: rgb(36, 38, 40)
+}
+
+.gallery-header>.inner-box>.navigation {
+  right: 0px;
+  bottom: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.gallery-header>.inner-box>.navigation>li {
+  padding: 0 30px;
+}
+
+
+
+

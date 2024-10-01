@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './inner-box.css';
+import './footer-inner-box.css';
 
-class InnerBox extends Component {
+class FInnerBox extends Component {
   render() {
     return (
-      <div class="inner-box">
+      <div class="footer-inner-box">
         <h1>WON LAB</h1>
         <ul>
           <li>&copy; 2022-2023 Won Lab, Inc.</li>
@@ -20,4 +20,4 @@ class InnerBox extends Component {
   }
 }
 
-export default InnerBox;
+export default FInnerBox;

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import './header.css';
-import UtilityBar from './utility-bar';
-import NavigationBar from './navigation-bar';
+import './galleryHeader.css';
+import UtilityBar from '../../header/utility-bar';
+import NavigationBar from '../../header/navigation-bar';
 
-
-class Header extends Component {
+class GalleryHeader extends Component {
   render() {
     return (
-      <div className='header'>
+      <div class='gallery-header'>
         <div className='inner-box'>
           <UtilityBar></UtilityBar>
           <h1>WON LAB</h1>
@@ -18,4 +17,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default GalleryHeader;

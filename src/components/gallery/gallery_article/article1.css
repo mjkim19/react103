@@ -1,0 +1,17 @@
+.article1 {
+  position: relative;
+  float: left;
+  width: 700px;
+  height: 400px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.article1>.phrase {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}

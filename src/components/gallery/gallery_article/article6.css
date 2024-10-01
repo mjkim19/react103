@@ -1,0 +1,21 @@
+.article6 {
+  position: relative;
+  float: left;
+  width: 1000px;
+  height: 371px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.article6>.phrase {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  top: 160.5px;
+  left: 0;
+  right: 0;
+  width: max-content;
+  margin: 0 auto;
+  text-shadow: 2px 2px black;
+}

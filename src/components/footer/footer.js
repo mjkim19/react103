@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './footer.css';
-import InnerBox from './inner-box';
+import FInnerBox from './footer-inner-box';
 import Information from './information';
 
 class Footer extends Component {
   render() {
     return (
       <footer>
-        <InnerBox></InnerBox>
+        <FInnerBox></FInnerBox>
         <Information></Information>
       </footer>
     )

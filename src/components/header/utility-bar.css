@@ -1,0 +1,11 @@
+.utility-bar {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.utility-bar>li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}

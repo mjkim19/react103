@@ -4,17 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Gallery from './components/gallery/gallery';
+import Gallery from './components/gallery/gallery-header/gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <App/> */}
-      {/* <Routes>
-        <Route path='/gallery' element={<Gallery/>}></Route>
-      </Routes> */}
-      <Gallery></Gallery>
+      <Routes>
+        <Route path='/' element={<App />}></Route>
+        <Route path='/gallery' element={<Gallery />}></Route>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

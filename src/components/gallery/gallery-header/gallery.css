@@ -21,19 +21,16 @@
   float: left;
 }
 
-.gallery section {
+.gallery>.section {
   width: 1000px;
   margin: 130px auto 0;
   overflow: hidden;
 }
 
-.gallery section>div {
+.gallery>.section>.article4 {
   float: left;
   width: 490px;
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
 }
-
-
-

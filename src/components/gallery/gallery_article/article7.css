@@ -1,0 +1,28 @@
+.article7 {
+  position: relative;
+  float: left;
+  width: 1000px;
+  height: 361px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.article7>.inner-box {
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  width: 450px;
+  height: 150px;
+  line-height: 50px;
+}
+
+.article7>.inner-box>.phrase {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+}
+
+.article7>.inner-box>.phrase>span {
+  font-size: 30px;
+  font-weight: bold;
+}
